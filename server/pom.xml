@@ -12,7 +12,7 @@
     <artifactId>server</artifactId>
     <properties>
 
-        <start-class>com.mall.server.BootMoreApplication</start-class>
+        <start-class>com.mall.BootMoreApplication</start-class>
     </properties>
     <!--依赖管理-->
     <dependencyManagement>
