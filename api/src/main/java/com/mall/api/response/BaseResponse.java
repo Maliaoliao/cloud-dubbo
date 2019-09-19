@@ -1,10 +1,10 @@
-package com.mall.response;
+package com.mall.api.response;
 
-import com.mall.enums.StatusCode;
+import com.mall.api.enums.StatusCode;
 import lombok.Data;
 
 /**
- * @description: 通用返回对象
+ * @description: 通用响应对象
  * @author: mall
  * @date: 2019-09-16 23:30
  **/

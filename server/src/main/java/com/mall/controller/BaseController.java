@@ -1,12 +1,9 @@
 package com.mall.controller;
 
-import com.mall.enums.StatusCode;
-import com.mall.response.BaseResponse;
+import com.mall.api.enums.StatusCode;
+import com.mall.api.response.BaseResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @description: baseController
@@ -21,7 +18,7 @@ public class BaseController {
     private BaseResponse hi(String name){
         //发起的第一个请求成功！
         BaseResponse response = new BaseResponse(StatusCode.sussess);
-        response.setData("1");
+        response.setData(name);
         return response;
     }
 }

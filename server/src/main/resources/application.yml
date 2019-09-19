@@ -1,0 +1,17 @@
+#mysql
+spring:
+  datasource:
+    username: root
+    password: maliao126127
+    url: jdbc:mysql://localhost:3306/cloud_db
+#端口号
+#mybatis
+mybatis:
+  mapper-locations: classpath:/mappers/*Mapper.xml
+  type-aliases-package: com.mall.model.mapper
+#sql输出
+logging:
+  level:
+    java.sql: debug
+    com.apache.ibatis: debug
+    com.mall.model.mapper : debug
